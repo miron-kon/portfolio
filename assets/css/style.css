@@ -351,6 +351,7 @@ button:active {
 
   .slider button {
     display: block;
+    -webkit-text-stroke: 1px black;
   }
 
 }
