@@ -240,6 +240,10 @@ main{
 button {
   -webkit-tap-highlight-color: transparent;
 }
+button:active {
+    background-color: inherit;
+    filter: none;
+}
 
 .prev { left: calc(var(--margin-m)* -1); }
 .next { right: calc(var(--margin-m)* -1); }
@@ -336,7 +340,7 @@ button {
   .gallery{
       grid-column: 1 / span 6;
       align-self: center;
-      padding-left: var(--margin-m);
+      padding-left: var(--margin-sm);
       padding-right: var(--margin-sm);
       max-width: 80vw;
     }
@@ -347,7 +351,6 @@ button {
 
   .slider button {
     display: block;
-    /* opacity: 50%; */
   }
 
 }
