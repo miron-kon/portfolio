@@ -331,8 +331,8 @@ main{
 
   .gallery{
       grid-column: 1 / span 6;
+      align-self: center;
       max-width: 80vw;
-      padding-left: var(--margin-s);
     }
 
   .image-block{
