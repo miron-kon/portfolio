@@ -43,6 +43,7 @@
   --font-size-caption: calc(var(--font-size) * 0.85);
   --margin-xs: calc(var(--margin) * 0.5);
   --margin-s: calc(var(--margin) * 1);
+  --margin-sm: calc(var(--margin) * 1.5);
   --margin-m: calc(var(--margin) * 2);
   --margin-l: calc(var(--margin) * 3);
   --margin-xl: calc(var(--margin) * 5);
@@ -332,8 +333,8 @@ main{
   .gallery{
       grid-column: 1 / span 6;
       align-self: center;
-      padding-left: var(--margin);
-      padding-right: var(--margin);
+      padding-left: var(--margin-m);
+      padding-right: var(--margin-sm);
       max-width: 80vw;
     }
 
