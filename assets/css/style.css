@@ -332,6 +332,8 @@ main{
   .gallery{
       grid-column: 1 / span 6;
       align-self: center;
+      padding-left: var(--margin);
+      padding-right: var(--margin);
       max-width: 80vw;
     }
 
@@ -341,6 +343,7 @@ main{
 
   .slider button {
     display: block;
+    opacity: 50%;
   }
 
 }
