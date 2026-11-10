@@ -313,8 +313,8 @@ button:active {
     overflow-x: hidden;
   }
   .menu img{
-    max-height: 110px;
-    max-width: 110px;
+    max-height: 100px;
+    max-width: 100px;
   }
 
   .txt-block{
@@ -351,6 +351,29 @@ button:active {
 
   .slider button {
     display: block;
+  }
+
+}
+
+@media (max-width: 779px) and (orientation: landscape) {
+
+  .gallery{
+    grid-column: 2 / span 4;
+    max-width: 60vw;
+    padding-left: var(--margin-m);
+  }
+  .image-block{
+    width: 50vw;
+  }
+
+  .menu{
+    grid-column: 1;
+    grid-column-end: 2;
+    position: sticky;
+    top: var(--margin-s);
+    max-height: 100svh;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
 
 }
