@@ -237,6 +237,9 @@ main{
 .slider:hover button {
   display: block;
 }
+button {
+  -webkit-tap-highlight-color: transparent;
+}
 
 .prev { left: calc(var(--margin-m)* -1); }
 .next { right: calc(var(--margin-m)* -1); }
@@ -344,7 +347,7 @@ main{
 
   .slider button {
     display: block;
-    opacity: 50%;
+    /* opacity: 50%; */
   }
 
 }
